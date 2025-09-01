@@ -5,5 +5,18 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Icon" type="Sprite2D" parent="."]
-position = Vector2(-4, -6)
+position = Vector2(551, 299)
 texture = ExtResource("1_76soy")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Label" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 524.0
+offset_top = 185.0
+offset_right = 564.0
+offset_bottom = 208.0
+size_flags_horizontal = 4
+text = "Привет"
